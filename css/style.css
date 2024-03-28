@@ -1,0 +1,62 @@
+/* NAVIGATION */
+.iconout {
+    width: 56px;
+    height: 40px;
+    border: none;
+    text-align: center;
+}
+
+#logout {
+    font-size: 35px;
+    color: rgb(147, 141, 141);
+}
+
+/* CARTA */
+
+.menu {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    margin-top: 7px;
+    border-radius: 20%;
+    border-color: blue;
+    font-size: 25px;
+    height: 100%;
+    /* Ajustar la altura */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    border: 0;
+    border-radius: 0 !important;
+    position: relative;
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+/* GRID GALERIA */
+
+.features-icons-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.second-row .features-icons-item {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+
+
+/* FORMULARIO RESERVA*/
+.form-group {
+    margin-bottom: 20px;
+}
